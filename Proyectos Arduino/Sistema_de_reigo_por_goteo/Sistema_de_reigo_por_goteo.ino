@@ -4,9 +4,9 @@
 
 //pines
 
-int bombaAgua = 0;
-int sensor = 9;
-int boton = 10;
+int bombaAgua = 0; //Pines donde van conectados
+int sensor = 9;    //DHT11 Resistencia de 4.7 KiloHoms
+int boton = 10;    //Agregar el Boton
 
 //variables
 int temp;
