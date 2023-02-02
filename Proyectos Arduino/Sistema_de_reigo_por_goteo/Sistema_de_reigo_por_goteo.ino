@@ -14,7 +14,7 @@ int sensorTemp;
 int eatadoBoton;
 
 //objetos
-LiquidCrystal lcd(7,6,5,4,3,2);
+LiquidCrystal lcd(2, 3, 4, 5, 6, 7)
 DHT dht(sensorTemp, DHT11);
 
 void setup() {
